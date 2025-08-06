@@ -1,4 +1,4 @@
-23891256009700991
+23899980079665919
 ADM3251EARWZ
 SOIC127P1032X265-20N
 RW-20 (SOIC)
@@ -6,6 +6,13 @@ Integrated Circuit
 0
 20
 20
+ADS8321
+SOP65P490X110-8N
+DGK(S-PDOS-G8)
+Integrated Circuit
+0
+8
+8
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63517,6 +63524,13 @@ solder jumper open
 0
 5
 3
+KiCad
+SOP65P490X110-8N
+DGK(S-PDOS-G8)
+Integrated Circuit
+0
+8
+8
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -90734,6 +90748,13 @@ Logo WEEE
 0
 0
 TMC5160
+TMC5160-ADT
+
+
+0
+30
+30
+TMC5160
 TMC5160-BOB
 
 
@@ -96953,6 +96974,20 @@ pc817
 PC817_SMD
 
 
+0
+4
+4
+sunny-sco-10
+HC-49SMD
+
+
+0
+2
+2
+sunny-sco-10
+sunny-sco-10
+Miniature Crystal Clock Oscillator TXC 7C series, http://www.txccorp.com/download/products/osc/7C_o.pdf, 5.0x3.2mm^2 package
+SMD SMT crystal oscillator
 0
 4
 4

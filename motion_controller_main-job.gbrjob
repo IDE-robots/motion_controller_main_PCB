@@ -3,18 +3,18 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.10"
+      "Version": "8.0.5"
     },
-    "CreationDate": "2024-02-14T22:06:42+09:00"
+    "CreationDate": "2025-08-05T16:04:56+09:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "crimping_machine",
-      "GUID": "6372696d-7069-46e6-975f-6d616368696e",
+      "Name": "motion_controller_main",
+      "GUID": "6d6f7469-6f6e-45f6-936f-6e74726f6c6c",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 157.172,
+      "X": 157.2,
       "Y": 251.66
     },
     "LayerNumber": 2,
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0508,
-      "PadToTrack": 0.0508,
+      "PadToPad": 0.1778,
+      "PadToTrack": 0.1778,
       "TrackToTrack": 0.1778,
       "MinLineWidth": 0.25,
       "TrackToRegion": 0.1778,
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "crimping_machine-F_Cu.gbr",
+      "Path": "motion_controller_main-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "crimping_machine-B_Cu.gbr",
+      "Path": "motion_controller_main-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "crimping_machine-F_Paste.gbr",
+      "Path": "motion_controller_main-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "crimping_machine-B_Paste.gbr",
+      "Path": "motion_controller_main-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "crimping_machine-F_Silkscreen.gbr",
+      "Path": "motion_controller_main-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "crimping_machine-B_Silkscreen.gbr",
+      "Path": "motion_controller_main-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "crimping_machine-F_Mask.gbr",
+      "Path": "motion_controller_main-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "crimping_machine-B_Mask.gbr",
+      "Path": "motion_controller_main-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "crimping_machine-Edge_Cuts.gbr",
+      "Path": "motion_controller_main-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -90,24 +90,29 @@
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {
